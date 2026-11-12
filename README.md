@@ -24,8 +24,10 @@ Threat shows for bosses, elites, rare elites and rares you fight in a group. Tur
 
 ## Install
 
-1. Download `ThreatMeter-v1.0.0.zip` from the latest release.
-2. Unzip it into `Interface\AddOns` so you have `Interface\AddOns\ThreatMeter`.
+1. On this page, click the green **Code** button, then **Download ZIP**.
+2. Unzip it into `Interface\AddOns`. The folder must be called exactly `ThreatMeter`,
+   so rename `ThreatMeter-main` if that is what you got, and end up with
+   `Interface\AddOns\ThreatMeter`.
 3. Start the game, make sure ThreatMeter is ticked, and go hit something.
 
 ## Needs
