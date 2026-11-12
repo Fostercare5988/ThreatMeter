@@ -1,0 +1,14 @@
+## Interface: 11200
+## Title: |cffff9e38ThreatMeter|r
+## Notes: Threat bars, a threat badge and aggro warnings for groups. Needs ClassicAPI.
+## Author: Fostercare5988
+## Version: 1.0.0
+## SavedVariables: ThreatMeterDB
+## X-Category: Combat & Threat
+## X-Website: https://github.com/Fostercare5988
+
+Core.lua
+ForgeUI.lua
+ForgeLayout.lua
+Meter.lua
+Settings.lua
