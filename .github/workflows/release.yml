@@ -26,5 +26,5 @@ jobs:
           [ -n "$version" ] || { echo "No version in $toc"; exit 0; }
           if gh release view "v$version" > /dev/null 2>&1; then echo "v$version is out"; exit 0; fi
           zip="${folder#!}.zip"
-          git archive --prefix="$folder/" -o "$zip" HEAD -- . ':(exclude).github' ':(exclude).gitignore' ':(exclude).gitattributes'
+          git archive --prefix="$folder/" -o "$zip" HEAD -- . ':(exclude).github' ':(exclude).gitignore' ':(exclude).gitattributes' ':(exclude).dev'
           gh release create "v$version" "$zip" --target "$GITHUB_SHA" --title "$folder $version" --generate-notes
