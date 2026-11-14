@@ -24,10 +24,8 @@ Threat shows for bosses, elites, rare elites and rares you fight in a group. Tur
 
 ## Install
 
-1. On this page, click the green **Code** button, then **Download ZIP**.
-2. Unzip it into `Interface\AddOns`. The folder must be called exactly `ThreatMeter`,
-   so rename `ThreatMeter-main` if that is what you got, and end up with
-   `Interface\AddOns\ThreatMeter`.
+1. Download `ThreatMeter.zip` from the [latest release](https://github.com/Fostercare5988/ThreatMeter/releases/latest).
+2. Unzip it into `Interface\AddOns`, so you end up with `Interface\AddOns\ThreatMeter`.
 3. Start the game, make sure ThreatMeter is ticked, and go hit something.
 
 ## Needs
