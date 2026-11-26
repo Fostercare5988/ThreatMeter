@@ -1,0 +1,11 @@
+## Interface: 11200
+## Title: |cffff9e38ThreatMeter|r |cffffd6a8[Fostercare5988]|r
+## Notes: Group fights against bosses, elites and rares: everyone's threat on your target, how much more pulls aggro, and a warning before you do
+## Author: Fostercare5988
+## X-Maintainer: Fostercare5988
+## Version: 1.0.0
+## SavedVariables: ThreatMeterDB
+## LoadSavedVariablesFirst: 1
+Core.lua
+Threat.lua
+Meter.lua
